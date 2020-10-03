@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6943a31f-6260-4adb-bd04-ca3ae8606d8d" name="Default Changelist" comment="" />
+    <list default="true" id="6943a31f-6260-4adb-bd04-ca3ae8606d8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/trans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/trans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/offer/offerCreate.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/eCommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eCommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +46,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,6 +160,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hwpt0g6t2Nu2EOzZ1jYM3YCBnB" />
@@ -131,16 +171,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\starter\database\migrations" />
       <recent name="C:\xampp\htdocs\starter\public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\eCommerce\resources\views" />
-      <recent name="C:\xampp\htdocs\eCommerce\public" />
+      <recent name="C:\xampp\htdocs\starter\resources\lang\en" />
+      <recent name="C:\xampp\htdocs\starter\resources\lang\ar" />
+      <recent name="C:\xampp\htdocs\starter\resources\lang" />
+      <recent name="C:\xampp\htdocs\starter\resources\views\offer" />
+      <recent name="C:\xampp\htdocs\starter\database\migrations" />
     </key>
   </component>
   <component name="RunManager">
@@ -166,20 +210,41 @@
       <workItem from="1601398500563" duration="1162000" />
       <workItem from="1601400330379" duration="969000" />
       <workItem from="1601401374486" duration="777000" />
+      <workItem from="1601403124000" duration="1026000" />
+      <workItem from="1601406361721" duration="1530000" />
+      <workItem from="1601555854331" duration="654000" />
+      <workItem from="1601628179577" duration="25585000" />
+      <workItem from="1601736102944" duration="7019000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1600978076767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1600978076767" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600971711939">
+    <state x="134" y="162" width="673" height="560" key="dock-window-1" timestamp="1601648734852">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600971711939" />
+    <state x="134" y="162" width="673" height="560" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1601648734852" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601736476255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601736476255" />
   </component>
 </project>

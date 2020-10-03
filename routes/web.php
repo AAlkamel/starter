@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\OfferController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +25,11 @@ Auth::routes(['verify' =>true]);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home') ->middleware('verified');
 
 
+Route::get('ofer',[OfferController::class, 'getOffers']);
+//Route::group(['prefix'=>'offer'],function (){
+  // Route::get('store',[OfferController::class,'store']);
+  Route::group(['prefix'=> LaravelLocalization::setLocale(),'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]],function () {
+        Route::get('create', [OfferController::class, 'create']);
+   });
+   Route::post('store',[OfferController::class,'store']);
+//});
